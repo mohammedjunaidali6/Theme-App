@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theme Test</title>
+    <script>
+        function testThemes() {
+            // Test theme switching by sending localStorage updates
+            console.log('Testing theme switching...');
+            
+            // Set dark-sidebar theme
+            localStorage.setItem('app-theme', 'dark-sidebar');
+            setTimeout(() => {
+                window.location.reload();
+            }, 1000);
+        }
+        
+        // Auto-test after 2 seconds
+        setTimeout(testThemes, 2000);
+    </script>
+</head>
+<body>
+    <h1>Theme Testing...</h1>
+    <p>This page will automatically test theme switching.</p>
+</body>
+</html>
