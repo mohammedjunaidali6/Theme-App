@@ -27,10 +27,10 @@
 
     /* Path mapping */
     "baseUrl": ".",
-    "paths": {
-      "@/*": ["./client/*"],
-      "@shared/*": ["./shared/*"]
-    }
+  "paths": {
+  "@/*": ["client/*"],
+  "@shared/*": ["shared/*"]
+},
   },
   "include": [
     "client/**/*",
