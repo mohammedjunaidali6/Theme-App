@@ -21,7 +21,7 @@ const App = () => (
       <ThemeProvider>
         <Toaster />
         <Sonner />
-        <BrowserRouter basename="/Theme-App">
+        <BrowserRouter basename="/Theme-App">      
           <Layout>
             <Routes>
               <Route path="/" element={<Home />} /> 
